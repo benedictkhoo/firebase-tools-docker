@@ -23,7 +23,7 @@ EXPOSE 9000
 EXPOSE 9005
 EXPOSE 9099
 EXPOSE 9199
-RUN apk --no-cache add openjdk11-jre bash && \
+RUN apk --no-cache add openjdk11-jre bash git && \
     yarn global add firebase-tools@${VERSION} && \
     yarn cache clean && \
     firebase setup:emulators:database && \
