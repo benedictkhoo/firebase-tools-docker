@@ -10,7 +10,7 @@ on:
       - '**'
 
 env:
-  REPOSITORY: andreysenov/firebase-tools
+  REPOSITORY: benedictkhoo/firebase-tools
   VERSION: 9.23.0
 
 jobs:
